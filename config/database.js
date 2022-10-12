@@ -11,7 +11,10 @@ const dataBase = async() =>{
 
     try {
         
-        await  mongoose.connect(process.env.DATABASE)
+      let data =  await  mongoose.connect(process.env.DATABASE,{useNewUrlParser: true,
+        useUnifiedTopology: true});
+
+      console.log(`database connected`);
 
     } catch (error) {
      
