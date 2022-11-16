@@ -13,7 +13,7 @@ const emailHtml = (name, id) => {
       use the link below.
   </div>
 
-  <button style="margin: 1rem auto;padding:1rem;border: 2px solid #820000; background-color:#fff;border-radius:0.5rem;" > <a style="text-decoration:none;color:#820000; " href="http://localhost:5060/portfolio/api/confirm/${id}">Confirm</a> </button>
+  <button style="margin: 1rem auto;padding:1rem;border: 2px solid #820000; background-color:#fff;border-radius:0.5rem;" > <a style="text-decoration:none;color:#820000; " href="https://vaibhav-joshi.netlify.app/${id}">Confirm</a> </button>
   
 </div>
 `;
